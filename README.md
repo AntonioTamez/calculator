@@ -1,110 +1,119 @@
-# Calculadora Vue.js
+# Vue.js Calculator
 
-## Descripción
-Esta aplicación es una **calculadora moderna** desarrollada con Vue.js que incluye las funcionalidades esenciales para realizar cálculos matemáticos. Además, presenta un diseño responsivo, intuitivo y profesional, compatible con dispositivos móviles, tabletas y computadoras de escritorio.
+## Description
+This application is a **modern calculator** built with Vue.js, featuring essential functionalities for performing mathematical calculations. It boasts a responsive, intuitive, and professional design compatible with mobile devices, tablets, and desktop computers.
 
 ---
 
 ## Demo
+[Calculator](https://sparkling-selkie-b6b0a9.netlify.app/)
 
 ---
 
-## Características principales
+## Key Features
 
-- **Operaciones básicas**:
-  - Suma, resta, multiplicación, división.
-  - Cálculo de porcentajes.
-- **Historial de operaciones**:
-  - Guarda todas las operaciones realizadas junto con sus resultados.
-  - Incluye la opción de limpiar el historial.
-- **Evaluación de expresiones completas**:
-  - Permite ingresar y resolver expresiones como `60 + 25%`.
-- **Diseño moderno y responsivo**:
-  - Adaptable a cualquier tamaño de pantalla.
-  - Uso de colores atractivos y una interfaz clara.
-- **Opciones de reinicio**:
-  - Limpieza de la operación actual o reinicio completo del estado de la calculadora.
-
----
-
-## Tecnologías utilizadas
-
-- **Framework**: Vue.js (última versión disponible).
-- **Estilos**: CSS moderno con diseño responsivo.
-- **Gestión del estado**: Composition API (para manejar el estado de la aplicación y el historial).
+- **Basic operations**:
+  - Addition, subtraction, multiplication, division.
+  - Percentage calculations.
+- **Operation history**:
+  - Saves all performed calculations along with their results.
+  - Includes an option to clear the history.
+- **Full expression evaluation**:
+  - Allows entering and solving expressions like `60 + 25%`.
+- **Modern and responsive design**:
+  - Adapts to any screen size.
+  - Attractive color scheme and clear interface.
+- **Reset options**:
+  - Clear the current operation or completely reset the calculator's state.
 
 ---
 
-## Instalación y configuración
+## Technologies Used
 
-### Prerrequisitos
+- **Framework**: Vue.js (latest version).
+- **Styling**: Modern CSS with responsive design.
+- **State Management**: Composition API (to handle application state and history).
 
-- **Node.js** (versión 14 o superior).
-- **npm** (versión 7 o superior) o **Yarn**.
+---
 
-### Pasos para instalar y ejecutar
+## Installation and Setup
 
-1. **Clona este repositorio**:
+### Prerequisites
+
+- **Node.js** (version 14 or higher).
+- **npm** (version 7 or higher) or **Yarn**.
+
+### Installation Steps
+
+1. **Clone this repository**:
    ```bash
-   git clone https://github.com/AntonioTamez/calculator.git
-   cd calculator
+   git clone <REPOSITORY_URL>
+   cd <PROJECT_NAME>
    ```
 
-2. **Instala las dependencias**:
+2. **Install dependencies**:
    ```bash
    npm install
-   # o con Yarn
+   # or with Yarn
    yarn install
    ```
 
-3. **Ejecuta el servidor de desarrollo**:
+3. **Run the development server**:
    ```bash
    npm run dev
-   # o con Yarn
+   # or with Yarn
    yarn dev
    ```
 
-4. **Abre la aplicación en tu navegador**:
-   - Ve a `http://localhost:5173`.
+4. **Open the application in your browser**:
+   - Go to `http://localhost:5173`.
 
 ---
 
-## Uso
+## Usage
 
-1. Ingresa números y selecciona las operaciones deseadas usando los botones.
-2. Utiliza `%` para calcular porcentajes.
-   - Ejemplo: `60 * 25%` mostrará el resultado `15`.
-3. Presiona `=` para obtener el resultado de la operación.
-4. Consulta el historial para revisar operaciones previas.
-5. Usa `C` para borrar la entrada actual o `AC` para reiniciar completamente la calculadora.
-
----
-
-## Estructura del proyecto
-
-- `App.vue`: Componente principal que contiene la lógica y diseño de la calculadora.
-- `main.js`: Archivo de entrada para inicializar la aplicación Vue.
-- `assets/styles.css`: Archivo de estilos para personalizar el diseño.
+1. Enter numbers and select the desired operations using the buttons.
+2. Use `%` to calculate percentages.
+   - Example: `60 * 25%` will display the result `15`.
+3. Press `=` to get the result of the operation.
+4. Check the history to review previous operations.
+5. Use `C` to clear the current input or `AC` to completely reset the calculator.
 
 ---
 
-## Contribución
+## Project Structure
 
-¡Contribuciones son bienvenidas! Sigue estos pasos:
+- `App.vue`: Main component containing the calculator logic and design.
+- `main.js`: Entry file to initialize the Vue application.
+- `assets/styles.css`: Styling file to customize the design.
 
-1. Haz un **fork** del repositorio.
-2. Crea una **rama nueva** con tus cambios:
+---
+
+## Contribution
+
+Contributions are welcome! Follow these steps:
+
+1. **Fork the repository**.
+2. Create a **new branch** with your changes:
    ```bash
-   git checkout -b mi-nueva-funcionalidad
+   git checkout -b my-new-feature
    ```
-3. Guarda tus cambios y súbelos al repositorio remoto:
+3. Commit your changes and push them to the remote repository:
    ```bash
-   git push origin mi-nueva-funcionalidad
+   git push origin my-new-feature
    ```
-4. Abre un **pull request**.
+4. Open a **pull request**.
 
 ---
 
-## Licencia
+## License
 
-Este proyecto está bajo la Licencia MIT. Consulta el archivo `LICENSE` para más detalles.
+This project is licensed under the MIT License. See the `LICENSE` file for details.
+
+---
+
+## 📢 **Contact**
+
+- **Author:** [Antonio Tamez](https://github.com/AntonioTamez)
+- **Email:** antonio.tamez@hotmail.com
+- **GitHub:** [https://github.com/AntonioTamez](https://github.com/AntonioTamez)
